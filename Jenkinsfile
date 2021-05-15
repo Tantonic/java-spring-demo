@@ -6,7 +6,7 @@ pipeline {
 	stages {
     	stage("Checkout") {   
         	steps {               	 
-            	git branch: 'main',  url: 'https://github.com/tantonic/devops-java-spring-demo'          	 
+            	git branch: 'main',  url: 'git@github.com:Tantonic/java-spring-demo.git'          	 
         	}    
     	}
     	stage('Build') {
